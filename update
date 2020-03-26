@@ -9,7 +9,7 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 # Download & unzip
 print('Download translations')
-s = requests.request('GET', 'https://crowdin.com/backend/download/project/electrum.zip').content
+s = requests.request('GET', 'https://crowdin.com/backend/download/project/electrumsys.zip').content
 zfobj = zipfile.ZipFile(io.BytesIO(s))
 
 print('Unzip translations')
