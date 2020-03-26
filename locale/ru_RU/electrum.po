@@ -424,7 +424,7 @@ msgstr "Arabic"
 #: electrum/plugins/trezor/qt.py:445 electrum/plugins/keepkey/qt.py:408
 #: electrum/plugins/safe_t/qt.py:318
 msgid "Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
+"Your wallet still has syscoins in it!"
 msgstr "Вы уверены что хотите отчистить устройство. В кошельке все еще имеются средства!"
 
 #: electrum/plugins/digitalbitbox/digitalbitbox.py:324
@@ -533,20 +533,20 @@ msgid "Bit rate [kbps]: "
 msgstr "Битрейт (кб/сек): "
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:71
-msgid "Bitcoin Address"
+msgid "Syscoin Address"
 msgstr "Биткоин адрес"
 
 #: electrum/gui/qt/main_window.py:1630
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin адрес не определен"
+msgid "Syscoin Address is None"
+msgstr "Syscoin адрес не определен"
 
 #: electrum/gui/qt/main_window.py:906
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Адрес Bitcoin, на который будет получен платеж. Обратите внимание, каждый запрос платежа использует другой Bitcoin адрес."
+msgid "Syscoin address where the payment should be received. Note that each payment request uses a different Syscoin address."
+msgstr "Адрес Syscoin, на который будет получен платеж. Обратите внимание, каждый запрос платежа использует другой Syscoin адрес."
 
 #: electrum/gui/qt/main_window.py:1226
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Транзакции Bitcoin обычно не бесплатны. Комиссия за транзакцию оплачивается тем, кто пересылает средства."
+msgid "Syscoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Транзакции Syscoin обычно не бесплатны. Комиссия за транзакцию оплачивается тем, кто пересылает средства."
 
 #: electrum/gui/qt/network_dialog.py:321
 #: electrum/gui/kivy/uix/ui_screens/network.kv:47
@@ -1242,7 +1242,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Ошибка коммуникации. Отключите и подключите заново ваш Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:205
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Syscoin mode"
 msgstr "Устройство не в биткойн-режиме"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1375,7 +1375,7 @@ msgstr "Плагины Electrum"
 
 #: electrum/plugin.py:498
 msgid "Electrum cannot pair with your {}.\n\n"
-"Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
+"Before you request syscoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all syscoins you receive will be unspendable."
 msgstr "Electrum не может сопрячься с вашим {}.\n\n"
 "Перед тем как получать биткойны на адреса в этом кошельке, убедитесь, что вы можете сопрячь устройство, или у вас есть seed-фраза(и кодовая фраза, если задана). Иначе полученные биткойны будет невозможно потратить."
 
@@ -1428,8 +1428,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum не удалось экспортировать транзакцию."
 
 #: electrum/gui/qt/main_window.py:656
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum делает ставку на скорость, низкое потребление ресурсов и упрощение Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Syscoin."
+msgstr "Electrum делает ставку на скорость, низкое потребление ресурсов и упрощение Syscoin."
 
 #: electrum/plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -1556,7 +1556,7 @@ msgid "Enter a label to name your device:"
 msgstr "Введите лейлб для вашего устройства:"
 
 #: electrum/base_wizard.py:207
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Syscoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "Введите список адресов биткойна (будет создан кошелек только для просмотра) или список приватных ключей."
 
 #: electrum/gui/qt/main_window.py:1971
@@ -1576,7 +1576,7 @@ msgstr "Введите новый пароль ниже."
 #: electrum/plugins/trezor/clientbase.py:258
 #: electrum/plugins/keepkey/clientbase.py:64
 #: electrum/plugins/safe_t/clientbase.py:69
-msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the bitcoins in the wallet."
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the syscoins in the wallet."
 msgstr "Введите ключевую фразу, чтобы сгенерировать кошелек. Каждый раз при использовании кошелька будет спрашиваться эта фраза. Если вы забудите ключевую фразу, вы не сможете получить доступ к биткойнам в этом кошельке."
 
 #: electrum/gui/qt/main_window.py:2790
@@ -1798,7 +1798,7 @@ msgid "Expired"
 msgstr "Срок действия истек"
 
 #: electrum/gui/qt/main_window.py:937
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Syscoin addresses."
 msgstr "Истекшие запросы должны быть удалены вручную из вашего списка, чтобы освободить соответствующие адреса Биткоин."
 
 #: electrum/gui/qt/invoice_list.py:49 electrum/gui/qt/main_window.py:2034
@@ -1925,8 +1925,8 @@ msgid "Firmware Version"
 msgstr "Версия прошивки"
 
 #: electrum/plugins/ledger/ledger.py:39
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Версия прошивки (или приложения \"Bitcoin\") слишком старая для поддержки Segwit. Пожалуйста обновите в"
+msgid "Firmware version (or \"Syscoin\" app) too old for Segwit support. Please update at"
+msgstr "Версия прошивки (или приложения \"Syscoin\") слишком старая для поддержки Segwit. Пожалуйста обновите в"
 
 #: electrum/plugins/trezor/qt.py:289
 msgid "Firmware version too old."
@@ -2155,7 +2155,7 @@ msgstr "Если вы отметите этот чекбокс, ваши неп�
 
 #: electrum/plugins/trezor/qt.py:582 electrum/plugins/keepkey/qt.py:525
 #: electrum/plugins/safe_t/qt.py:455
-msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your syscoins."
 msgstr "Если вы отключите ваш PIN-код, любой человек имеющий физический доступ к вашему {} устройству, сможет потратить ваши биткойны."
 
 #: electrum/base_wizard.py:440
@@ -2164,7 +2164,7 @@ msgstr "Если вы не знаете что это - оставьте это 
 
 #: electrum/plugins/trezor/qt.py:34 electrum/plugins/keepkey/qt.py:34
 #: electrum/plugins/safe_t/qt.py:34
-msgid "If you forget a passphrase you will be unable to access any bitcoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgid "If you forget a passphrase you will be unable to access any syscoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
 msgstr "При утере пароля доступ к кошельку будет невозможен. Пароль не несет функции ПИН-кода, ознакомьтесь с документацией перед внесением изменений."
 
 #: electrum/gui/kivy/uix/dialogs/installwizard.py:726
@@ -2217,11 +2217,11 @@ msgid "Import"
 msgstr "Импортировать"
 
 #: electrum/base_wizard.py:206
-msgid "Import Bitcoin Addresses"
+msgid "Import Syscoin Addresses"
 msgstr "Импортировать биткоин адрес"
 
 #: electrum/base_wizard.py:134
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Syscoin addresses or private keys"
 msgstr "Импортировать биткоин адреса или приватные ключи"
 
 #: electrum/gui/qt/main_window.py:577 electrum/gui/qt/main_window.py:2790
@@ -2359,16 +2359,16 @@ msgstr "Неверная сумма"
 
 #: electrum/plugins/hw_wallet/plugin.py:75 electrum/gui/qt/main_window.py:1633
 #: electrum/gui/kivy/uix/screens.py:265
-msgid "Invalid Bitcoin Address"
-msgstr "Неверный адрес Bitcoin"
+msgid "Invalid Syscoin Address"
+msgstr "Неверный адрес Syscoin"
 
 #: electrum/gui/text.py:342 electrum/gui/stdio.py:173
-msgid "Invalid Bitcoin address"
+msgid "Invalid Syscoin address"
 msgstr "Неверный биткойн адрес"
 
 #: electrum/wallet.py:1254 electrum/gui/qt/main_window.py:2344
 #: electrum/gui/qt/main_window.py:2372
-msgid "Invalid Bitcoin address."
+msgid "Invalid Syscoin address."
 msgstr "Неверный биткойн адрес."
 
 #: electrum/gui/text.py:352 electrum/gui/stdio.py:183
@@ -2589,7 +2589,7 @@ msgid "Make sure you install it with python3"
 msgstr "Убедитесь, что вы произвели установку используя python3"
 
 #: electrum/gui/qt/main_window.py:468
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request Syscoins to be sent to this wallet."
 msgstr "Убедитесь, что у вас есть seed-фраза или закрытый ключ, прежде чем запрашивать биткойны для отправки в этот кошелёк."
 
 #: electrum/plugins/coldcard/qt.py:154
@@ -2951,7 +2951,7 @@ msgstr "Подключаться только к одному серверу"
 
 #: electrum/plugins/trezor/qt.py:607 electrum/plugins/keepkey/qt.py:550
 #: electrum/plugins/safe_t/qt.py:480
-msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the syscoins will be lost forever."
 msgstr "Очистите устройство только если у вас есть записанная seed-фраза и кошельки связанные с устройством пусты, иначе биткойны будут потеряны навсегда."
 
 #: electrum/plugins/revealer/qt.py:732
@@ -3021,7 +3021,7 @@ msgstr "Неверный PIN-код"
 
 #: electrum/plugins/trezor/qt.py:516 electrum/plugins/keepkey/qt.py:482
 #: electrum/plugins/safe_t/qt.py:389
-msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your bitcoins if they obtain physical access to your {}."
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your syscoins if they obtain physical access to your {}."
 msgstr "Защита PIN-кодом настоятельно рекомендуется. PIN-код ваша единственная защита, против кражи ваших биткойнов тем, кто получит физический доступ к вашему {}."
 
 #: electrum/plugins/trezor/qt.py:475 electrum/plugins/keepkey/qt.py:440
@@ -3230,7 +3230,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Пожалуйста сохраните эти {0} слов на бумаге (порядок имеет значение). "
 
 #: electrum/gui/kivy/uix/screens.py:262
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Syscoin address or a payment request"
 msgstr "Пожалуйста отсканируйте биткойн адрес или запрос платежа"
 
 #: electrum/plugin.py:557
@@ -3897,7 +3897,7 @@ msgid "Settings"
 msgstr "Настройки"
 
 #: electrum/gui/kivy/uix/screens.py:394
-msgid "Share Bitcoin Request"
+msgid "Share Syscoin Request"
 msgstr "Поделиться запросом битокйна"
 
 #: electrum/gui/kivy/uix/screens.py:277
@@ -4082,7 +4082,7 @@ msgid "Start"
 msgstr "Начало"
 
 #: electrum/gui/qt/main_window.py:659
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Syscoin system."
 msgstr "Запуск программы происходит моментально, так как большинство тяжелых операций происходит на серверах."
 
 #: electrum/gui/qt/main_window.py:2870
@@ -4165,7 +4165,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:485
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Syscoin network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/util.py:662
@@ -4206,7 +4206,7 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Сумма будет отображаться красным цветом, если на Вашем кошельке недостаточно средств."
 
 #: electrum/gui/qt/main_window.py:938
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgid "The syscoin address never expires and will always be part of this electrum wallet."
 msgstr "Срок действия биткойн-адреса не ограничен, поэтому он всегда будет частью кошелька."
 
 #: electrum/gui/qt/main_window.py:1191
@@ -4379,7 +4379,7 @@ msgid "This may result in higher transactions fees."
 msgstr "Это может привести к увеличению комиссии за транзакции."
 
 #: electrum/gui/qt/main_window.py:467
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend Syscoins with it."
 msgstr "Это значит, что Вы не можете использовать биткойны в нём."
 
 #: electrum/gui/qt/main_window.py:3109
@@ -4463,7 +4463,7 @@ msgid "This will save fees."
 msgstr "Это уменьшит комиссии."
 
 #: electrum/base_wizard.py:606
-msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive bitcoins during the transition period."
+msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive syscoins during the transition period."
 msgstr "Для того чтобы получать биткойны в течении переходного периода, возможно вы хотите продолжить использовать не segwit кошелек."
 
 #: electrum/gui/qt/main_window.py:2864
@@ -5181,8 +5181,8 @@ msgid "You may also save unsigned requests or contact addresses using the save b
 msgstr "Также вы можете сохранить неподписанные запросы или адреса контактов используя кнопку сохранения."
 
 #: electrum/gui/qt/main_window.py:1180
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Вы можете указать Bitcoin-адрес, метку из вашей адресной книги (будет показан список с автодополнением) или псевдоним (адрес, похожий на эл. почту, связанный с адресом Bitcoin)"
+msgid "You may enter a Syscoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Syscoin address)"
+msgstr "Вы можете указать Syscoin-адрес, метку из вашей адресной книги (будет показан список с автодополнением) или псевдоним (адрес, похожий на эл. почту, связанный с адресом Syscoin)"
 
 #: electrum/base_wizard.py:435
 msgid "You may extend your seed with custom words."
@@ -5207,7 +5207,7 @@ msgstr "Вам нужно создать отдельный кошелек в El
 
 #: electrum/plugins/trezor/qt.py:31 electrum/plugins/keepkey/qt.py:31
 #: electrum/plugins/safe_t/qt.py:31
-msgid "You should enable PIN protection.  Your PIN is the only protection for your bitcoins if your device is lost or stolen."
+msgid "You should enable PIN protection.  Your PIN is the only protection for your syscoins if your device is lost or stolen."
 msgstr "Вам следует включить защиту PIN-кодом. Ваш PIN-код единственная защита ваших биткойнов, если устройство потеряно или украдено."
 
 #: electrum/plugins/trezor/trezor.py:233 electrum/plugins/safe_t/safe_t.py:213
@@ -5233,7 +5233,7 @@ msgid "Your accounts have been moved to"
 msgstr "Ваши аккаунты были перемещены в"
 
 #: electrum/gui/qt/password_dialog.py:252
-msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
+msgid "Your syscoins are password protected. However, your wallet file is not encrypted."
 msgstr "Ваши биткойны защищены паролем, но ваш кошелёк не зашифрован."
 
 #: electrum/plugins/trezor/qt.py:395 electrum/plugins/keepkey/qt.py:389
