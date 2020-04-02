@@ -1,1 +1,1 @@
-# electrum-locale
+# electrumsys-locale

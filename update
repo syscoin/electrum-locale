@@ -14,7 +14,7 @@ zfobj = zipfile.ZipFile(io.BytesIO(s))
 
 print('Unzip translations')
 for name in zfobj.namelist():
-    if not name.startswith('electrum-client/locale'):
+    if not name.startswith('electrumsys-client/locale'):
         continue
     if name.endswith('/'):
         if not os.path.exists(name[16:]):
@@ -26,7 +26,7 @@ for name in zfobj.namelist():
 # Convert .po to .mo
 print('Installing')
 for lang in os.listdir('locale'):
-    po = 'locale/%s/electrum.po' % lang
+    po = 'locale/%s/electrumsys.po' % lang
     cmd = "git add %s"%po
     os.system(cmd)
 
